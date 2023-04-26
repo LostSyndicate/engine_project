@@ -17,8 +17,8 @@ When compiled, libraries and DLLs should be put under lib/x64 or lib/x86 and whe
 
 # Compilation
 Run CMakeLists.txt then open the project and compile.
-On linux use 'cmake -B"build" -G"MinGW Makefiles" CMakeLists.txt" then cd into build and run nmake.
-If you are compiling from MinGW on windows you may need to open "Developer Command Prompt for VS" and use nmake from there.
+On linux use 'cmake -B"build" -G"MinGW Makefiles" CMakeLists.txt" then cd into build and run make.
+If you are compiling from MinGW on windows you may need to open "Developer Command Prompt for VS" and run nmake from there.
 
 ## Starting the application
 
