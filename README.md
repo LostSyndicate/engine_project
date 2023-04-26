@@ -12,7 +12,7 @@ No compilation required:
 - glm (lib/glm)
 - stb (uses image,image_write,rect_pack then put in lib/stb)
 
-When compiled, libraries and DLLs should be put under lib/x64 or lib/x86
+When compiled, libraries and DLLs should be put under lib/x64 or lib/x86 and when compiling the program, be put in the same directory as the executable.
 
 # Compilation
 Run CMakeLists.txt then open the project and compile.
