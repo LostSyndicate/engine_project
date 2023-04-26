@@ -14,6 +14,8 @@ No compilation required:
 
 When compiled, libraries and DLLs should be put under lib/x64 or lib/x86 and when compiling the program, be put in the same directory as the executable.
 
+- **Currently OpenGL 3.3 Core is being used, however it can be a higher version if required.**
+
 # Compilation
 Run CMakeLists.txt then open the project and compile.
 On linux use 'cmake -B"build" -G"MinGW Makefiles" CMakeLists.txt" then cd into build and run nmake.
