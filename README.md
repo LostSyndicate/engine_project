@@ -8,7 +8,7 @@ Compilation Required:
 - assimp (lib/assimp)
 
 No compilation required:
-- glad (both .h and .c files must be put in lib/glad, along with khrplatform.h so they should all be in the same folder)
+- [glad](https://glad.dav1d.de/) (both .h and .c files must be put in lib/glad, along with khrplatform.h so they should all be in the same folder)
 - glm (lib/glm)
 - stb (uses image,image_write,rect_pack then put in lib/stb)
 
