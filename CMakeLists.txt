@@ -2,6 +2,7 @@
 
 project(SM3)
 
+# Filter out all that junk the compiler generates (WE ONLY WANT ERRORS YEAH!)
 set(CMAKE_CXX_FLAGS "-fcompare-debug-second")
 
 include_directories(SM3 ${CMAKE_SOURCE_DIR}/lib ${CMAKE_SOURCE_DIR}/lib/ft2 "${CMAKE_SOURCE_DIR}/include")
