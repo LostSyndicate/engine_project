@@ -66,8 +66,9 @@ int main() {
 
 See ```Graphics/Model.h``` or ```Graphics/Mesh.h```.
 
-- In the future, you will be able to use ``Graphics/GraphicsRenderer.h```. This system would allow you to add some component to render, and handle all rendering aspects automatically.
+- In the future, you will be able to use ```Graphics/GraphicsRenderer.h```. This system would allow you to add some component to render, and handle all rendering aspects automatically.
 
+To render text and most 2D shapes use ```UI/UICanvas.h```
 
 # TODO
 
