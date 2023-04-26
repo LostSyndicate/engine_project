@@ -54,7 +54,7 @@ void PrintXMLNodes(XmlNode* node, int depth)
 int main()
 {
     XmlParser *parser = XmlParser::Create();
-    XmlNode* proot = parser->ParseFile("try_me.xml");
+    XmlNode* proot = parser->ParseFile("res/try_me.xml");
     if (parser->GetError() != nullptr)
         printf("%s\n", parser->GetError());
     else
@@ -80,7 +80,7 @@ void Program::OnInit()
     input_->SetSize(width_, height_);
 
     font_ = Font::Create();
-    font_->Load("arial.ttf");
+    font_->Load("res/arial.ttf");
 
     ui_window_ = UIWindow::Create();
 
