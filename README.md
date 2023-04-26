@@ -13,14 +13,18 @@ No compilation required:
 
 When compiled, libraries and DLLs should be put under lib/x64 or lib/x86 and when compiling the program, be put in the same directory as the executable.
 
-- **Currently OpenGL 3.3 Core is being used, however it can be a higher version if required.**
+***OpenGL 3.3 Core is used for rendering, version can be higher.***
 
 # Compilation
+- **Make sure you compile everything with same compiler!**
+
 Run CMakeLists.txt then open the project and compile.
 On linux use 'cmake -B"build" -G"MinGW Makefiles" CMakeLists.txt" then cd into build and run make.
 If you are compiling from MinGW on windows you may need to open "Developer Command Prompt for VS" and run nmake from there.
 
-## Starting the application
+Once compiled don't forget to copy the DLLs to the directory the executable is located.
+
+# Starting the application
 
 To start the application, create a class that uses ```Application``` and run it.
 
@@ -57,3 +61,23 @@ int main() {
 }
 
 ```
+
+# Rendering
+
+See ```Graphics/Model.h``` or ```Graphics/Mesh.h```.
+
+- In the future, you will be able to use ``Graphics/GraphicsRenderer.h```. This system would allow you to add some component to render, and handle all rendering aspects automatically.
+
+
+# TODO
+
+- [x] Primitive rendering (mesh, canvas)
+- [x] Text rendering (canvas)
+- [x] Basic UI
+- [x] Node system
+- [ ] Graphics Renderer
+- [ ] Graphics Command List
+- [ ] Forward Tiled Renderer
+- [ ] Shadow Renderer (however there is a shadow mapper in _Test.cpp)
+- [ ] Screen-Space Ambient Occulsion (SSAO)
+- [ ] Deferred Renderer (may not due because of transparency)
