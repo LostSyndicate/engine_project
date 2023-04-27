@@ -17,7 +17,3 @@
 	path = res
 	url = https://github.com/LostSyndicate/engine_project
 	branch = res
-[submodule "main/res"]
-	path = main/res
-	url = git@github.com:LostSyndicate/engine_project.git
-	branch = res
