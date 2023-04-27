@@ -1,0 +1,25 @@
+<a>
+	<b xyz="12,12,12" rot="0.000"/>
+	<c xyz="12,12,12" rot="0.000">
+		<d href	 =    "aaahhh.script"/>
+		<e something="hi" >
+			<f href="bruh.script" />
+			<f href="bruh.script" />
+		</e>
+		<sumthin/>
+		<sumthin/>
+		<sumthin/>
+	</c>
+	<goof xyz="12,12,12" rot="0.000">
+		<d href="aaahhh.script"/>
+		<e something="hi" >
+			<f href="bruh.\a\nscript" />
+			<f href="\"bruh\".script" />
+		</e>
+	</goof>
+</a>
+<b>
+	<aaah/>
+	<goofy2 />
+</b>
+<a1/>
