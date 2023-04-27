@@ -1,2 +1,0 @@
-SSAO
-Deferred Rendering
