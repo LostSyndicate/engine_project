@@ -24,6 +24,9 @@ If you are compiling from MinGW on windows you may need to open "Developer Comma
 
 Once compiled don't forget to copy the DLLs to the directory the executable is located.
 
+# Assets
+Download the assets in the res branch. Then put the res folder in the build directory.
+
 # Starting the application
 
 To start the application, create a class that uses ```Application``` and run it.
