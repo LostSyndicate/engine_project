@@ -13,3 +13,7 @@
 [submodule "lib/stb"]
 	path = lib/stb
 	url = https://github.com/nothings/stb
+[submodule "res"]
+	path = res
+	url = https://github.com/LostSyndicate/engine_project
+	branch = res
